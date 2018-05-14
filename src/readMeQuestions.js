@@ -26,7 +26,7 @@ module.exports = [
     name: 'badges',
     message: 'Select the badges you want on your repo',
     choices: Object.keys(badgesDictionnary).reduce(
-      (acc, name) => [...acc, { name, checked: true }],
+      (acc, name) => [...acc, { name }],
       []
     )
   },
