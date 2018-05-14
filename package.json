@@ -2,13 +2,23 @@
   "name": "readit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
+  "files": ["lib"],
   "scripts": {
+    "test:cli": "cd cli-test && node ../src/index.js init",
     "commit": "git-cz",
     "lint": "eslint src __tests__",
     "lint:fix": "eslint --fix src __tests__",
     "test": "jest --config jest.json --coverage",
+    "travis-deploy-once": "travis-deploy-once",
+    "build": "babel src/ -d lib/",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,6 +32,9 @@
   },
   "homepage": "https://github.com/elcoosp/readit#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.19.1",
@@ -31,7 +44,9 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.1.0",
     "jest": "^22.4.3",
-    "semantic-release": "^15.4.1"
+    "nodemon": "^1.17.4",
+    "semantic-release": "^15.4.1",
+    "travis-deploy-once": "^5.0.0"
   },
   "dependencies": {
     "commander": "^2.15.1",
