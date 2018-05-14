@@ -62,4 +62,5 @@ typings/
 
 
 cli-test/
+__tests__/
 lib/

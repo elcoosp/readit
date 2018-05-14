@@ -6,5 +6,10 @@
     "describe": true,
     "it": true,
     "expect": true
-  }
+  },
+  "overrides": [
+    {
+      "excludedFiles": "lib/"
+    }
+  ]
 }
