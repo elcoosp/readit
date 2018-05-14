@@ -16,6 +16,8 @@
     "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
+  "eslintIgnore": ["lib/"],
+
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
