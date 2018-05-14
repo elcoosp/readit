@@ -1,7 +1,7 @@
 {
-  "name": "readit",
+  "name": "readme-plz",
   "version": "1.0.0",
-  "description": "",
+  "description": "A README boilerplate cli generator, with some badges !",
   "main": "src/index.js",
   "files": ["lib"],
   "scripts": {
@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elcoosp/readit.git"
+    "url": "git+https://github.com/elcoosp/readme-plz.git"
   },
   "keywords": [],
   "author": "elcoosp <elcoosp@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elcoosp/readit/issues"
+    "url": "https://github.com/elcoosp/readme-plz/issues"
   },
-  "homepage": "https://github.com/elcoosp/readit#readme",
+  "homepage": "https://github.com/elcoosp/readme-plz#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
