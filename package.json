@@ -2,7 +2,7 @@
   "name": "readme-plz",
   "version": "1.0.0",
   "description": "A README boilerplate cli generator, with some badges !",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "files": ["lib"],
   "scripts": {
     "test:cli": "cd cli-test && node ../src/index.js init",
