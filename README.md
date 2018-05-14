@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://imgur.com/GWVHZW4"/>
+  <img src="https://i.imgur.com/GWVHZW4.png"/>
 </p>
 
 # Readme-plz
