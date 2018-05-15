@@ -4,6 +4,8 @@
 
 # Readme-plz
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elcoosp/readme-plz.svg)](https://greenkeeper.io/)
+
 [![Inline docs](http://inch-ci.org/github/elcoosp/readme-plz.svg?branch=master)](http://inch-ci.org/github/elcoosp/readme-plz)
 [![Build Status](https://travis-ci.org/elcoosp/readme-plz.png?branch=master)](https://travis-ci.org/elcoosp/readme-plz)
 [![Node version](https://img.shields.io/node/v/readme-plz.svg?style=flat)](http://nodejs.org/download/)
