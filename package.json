@@ -1,10 +1,12 @@
 {
   "name": "readme-plz",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A README boilerplate cli generator, with some badges !",
   "bin": "lib/index.js",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test:cli": "cd cli-test && node ../src/index.js init",
     "commit": "git-cz",
@@ -16,8 +18,9 @@
     "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
-  "eslintIgnore": ["lib/"],
-
+  "eslintIgnore": [
+    "lib/"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -25,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elcoosp/readme-plz.git"
+    "url": "https://github.com/elcoosp/readme-plz.git"
   },
   "keywords": [],
   "author": "elcoosp <elcoosp@gmail.com>",
