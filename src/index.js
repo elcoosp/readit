@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('babel-polyfill')
 const program = require('commander')
 const inquirer = require('inquirer')
 const readMeQuestions = require('./readMeQuestions')

@@ -55,6 +55,7 @@
     "travis-deploy-once": "^5.0.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "commander": "^2.15.1",
     "inquirer": "^5.2.0"
   }
