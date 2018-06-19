@@ -16,10 +16,10 @@ A README boilerplate cli generator, with some badges !
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Support](#support)
-* [Contributing](#contributing)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -28,6 +28,8 @@ A README boilerplate cli generator, with some badges !
 ## Usage
 
 `readme-plz init`
+
+This command will prompt you for some informations and generate a Readme.md (like this one) in the current working directory.
 
 ## Support
 
