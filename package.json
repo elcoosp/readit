@@ -15,8 +15,9 @@
     "test": "jest --config jest.json --coverage",
     "travis-deploy-once": "travis-deploy-once",
     "build": "babel src/ -d lib/",
-    "prepare": "npm run build",
-    "semantic-release": "semantic-release"
+    "prepare": "npm run snyk-protect && npm run build",
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect"
   },
   "eslintIgnore": [
     "lib/"
@@ -57,6 +58,8 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "commander": "^2.15.1",
-    "inquirer": "^5.2.0"
-  }
+    "inquirer": "^5.2.0",
+    "snyk": "^1.316.2"
+  },
+  "snyk": true
 }
